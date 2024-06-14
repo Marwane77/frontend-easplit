@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "easplit",
+    "slug": "easplit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon.png",
+    "userInterfaceStyle": "light",
+    "plugin": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/CodecPro-ExtraBold.ttf",
+            "./assets/fonts/CodecPro-Regular.ttf",
+            "./assets/fonts/CodecPro-Heavy.ttf",
+            "./assets/fonts/CodecPro-Fat.ttf",
+            "./assets/fonts/CodecPro-Thin.ttf",
+            "./assets/fonts/CodecPro-Ultra.ttf",
+            "./assets/fonts/CodecPro-News.ttf",
+            "./assets/fonts/CodecPro-Light.ttf"
+          ]
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
